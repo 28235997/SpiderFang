@@ -11,6 +11,7 @@ import random
 class UserAgentDownloadMiddleware(object):
     
     #未使用，有的头与房天下网站不兼容
+
     def process_request(self, request, spider):
         USER_AGENTS = [
             "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50",
